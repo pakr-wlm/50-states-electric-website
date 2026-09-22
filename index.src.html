@@ -363,51 +363,53 @@
   </div>
 
   <!-- ============ 7. SERVICE AREA ============
-       Town list is copied from 50stateselectric.com/services ("Areas We Service"). -->
+       Town list is copied from 50stateselectric.com/services ("Areas We Service").
+       Each town is a button: clicking it highlights the town and re-centers the map on it. -->
   <section id="service-area" class="service-area">
     <div class="wrap">
       <h2 class="reveal">Proudly Serving Atlanta &amp; Nearby Towns</h2>
-      <ul class="town-list reveal">
-        <li>Acworth</li>
-        <li>Alpharetta</li>
-        <li>Austell</li>
-        <li>Avondale Estates</li>
-        <li>Brookhaven</li>
-        <li>Buckhead</li>
-        <li>Canton</li>
-        <li>Chamblee</li>
-        <li>Cartersville</li>
-        <li>Dallas</li>
-        <li>Decatur</li>
-        <li>Doraville</li>
-        <li>Douglasville</li>
-        <li>Duluth</li>
-        <li>Dunwoody</li>
-        <li>East Cobb</li>
-        <li>Fayetteville</li>
-        <li>Holly Springs</li>
-        <li>Johns Creek</li>
-        <li>Kennesaw</li>
-        <li>Lithia Springs</li>
-        <li>Mableton</li>
-        <li>Marietta</li>
-        <li>Newnan</li>
-        <li>Norcross</li>
-        <li>Peachtree City</li>
-        <li>Powder Springs</li>
-        <li>Roswell</li>
-        <li>Sandy Springs</li>
-        <li>Scottdale</li>
-        <li>Smyrna</li>
-        <li>Stone Mountain</li>
-        <li>Tucker</li>
-        <li>Villa Rica</li>
-        <li>Vinings</li>
-        <li>Woodstock</li>
+      <p class="town-hint reveal">Tap a town to see it on the map.</p>
+      <ul class="town-list reveal" id="town-list">
+        <li><button type="button" class="town-btn" data-town="Acworth, GA" aria-pressed="false">Acworth</button></li>
+        <li><button type="button" class="town-btn" data-town="Alpharetta, GA" aria-pressed="false">Alpharetta</button></li>
+        <li><button type="button" class="town-btn" data-town="Austell, GA" aria-pressed="false">Austell</button></li>
+        <li><button type="button" class="town-btn" data-town="Avondale Estates, GA" aria-pressed="false">Avondale Estates</button></li>
+        <li><button type="button" class="town-btn" data-town="Brookhaven, GA" aria-pressed="false">Brookhaven</button></li>
+        <li><button type="button" class="town-btn" data-town="Buckhead, Atlanta, GA" aria-pressed="false">Buckhead</button></li>
+        <li><button type="button" class="town-btn" data-town="Canton, GA" aria-pressed="false">Canton</button></li>
+        <li><button type="button" class="town-btn" data-town="Chamblee, GA" aria-pressed="false">Chamblee</button></li>
+        <li><button type="button" class="town-btn" data-town="Cartersville, GA" aria-pressed="false">Cartersville</button></li>
+        <li><button type="button" class="town-btn" data-town="Dallas, GA" aria-pressed="false">Dallas</button></li>
+        <li><button type="button" class="town-btn" data-town="Decatur, GA" aria-pressed="false">Decatur</button></li>
+        <li><button type="button" class="town-btn" data-town="Doraville, GA" aria-pressed="false">Doraville</button></li>
+        <li><button type="button" class="town-btn" data-town="Douglasville, GA" aria-pressed="false">Douglasville</button></li>
+        <li><button type="button" class="town-btn" data-town="Duluth, GA" aria-pressed="false">Duluth</button></li>
+        <li><button type="button" class="town-btn" data-town="Dunwoody, GA" aria-pressed="false">Dunwoody</button></li>
+        <li><button type="button" class="town-btn" data-town="East Cobb, GA" aria-pressed="false">East Cobb</button></li>
+        <li><button type="button" class="town-btn" data-town="Fayetteville, GA" aria-pressed="false">Fayetteville</button></li>
+        <li><button type="button" class="town-btn" data-town="Holly Springs, GA" aria-pressed="false">Holly Springs</button></li>
+        <li><button type="button" class="town-btn" data-town="Johns Creek, GA" aria-pressed="false">Johns Creek</button></li>
+        <li><button type="button" class="town-btn" data-town="Kennesaw, GA" aria-pressed="false">Kennesaw</button></li>
+        <li><button type="button" class="town-btn" data-town="Lithia Springs, GA" aria-pressed="false">Lithia Springs</button></li>
+        <li><button type="button" class="town-btn" data-town="Mableton, GA" aria-pressed="false">Mableton</button></li>
+        <li><button type="button" class="town-btn" data-town="Marietta, GA" aria-pressed="false">Marietta</button></li>
+        <li><button type="button" class="town-btn" data-town="Newnan, GA" aria-pressed="false">Newnan</button></li>
+        <li><button type="button" class="town-btn" data-town="Norcross, GA" aria-pressed="false">Norcross</button></li>
+        <li><button type="button" class="town-btn" data-town="Peachtree City, GA" aria-pressed="false">Peachtree City</button></li>
+        <li><button type="button" class="town-btn" data-town="Powder Springs, GA" aria-pressed="false">Powder Springs</button></li>
+        <li><button type="button" class="town-btn" data-town="Roswell, GA" aria-pressed="false">Roswell</button></li>
+        <li><button type="button" class="town-btn" data-town="Sandy Springs, GA" aria-pressed="false">Sandy Springs</button></li>
+        <li><button type="button" class="town-btn" data-town="Scottdale, GA" aria-pressed="false">Scottdale</button></li>
+        <li><button type="button" class="town-btn" data-town="Smyrna, GA" aria-pressed="false">Smyrna</button></li>
+        <li><button type="button" class="town-btn" data-town="Stone Mountain, GA" aria-pressed="false">Stone Mountain</button></li>
+        <li><button type="button" class="town-btn" data-town="Tucker, GA" aria-pressed="false">Tucker</button></li>
+        <li><button type="button" class="town-btn" data-town="Villa Rica, GA" aria-pressed="false">Villa Rica</button></li>
+        <li><button type="button" class="town-btn" data-town="Vinings, GA" aria-pressed="false">Vinings</button></li>
+        <li><button type="button" class="town-btn" data-town="Woodstock, GA" aria-pressed="false">Woodstock</button></li>
         <li class="town-more">and more</li>
       </ul>
       <div class="map-embed">
-        <iframe src="https://maps.google.com/maps?q=2020%20Howell%20Mill%20Rd%20NW%2C%20Atlanta%2C%20GA%2030318&amp;output=embed" loading="lazy" title="Map of 50 States Electric at 2020 Howell Mill Rd NW, Atlanta, GA"></iframe>
+        <iframe id="area-map" src="https://maps.google.com/maps?q=2020%20Howell%20Mill%20Rd%20NW%2C%20Atlanta%2C%20GA%2030318&amp;output=embed" loading="lazy" title="Map of 50 States Electric at 2020 Howell Mill Rd NW, Atlanta, GA"></iframe>
       </div>
     </div>
   </section>
@@ -615,6 +617,35 @@
       });
     }, { threshold: 0.15 });
     revealEls.forEach(function (el) { io.observe(el); });
+  }
+
+  // Service-area map: clicking a town emphasizes it and re-centers the embedded map on it.
+  var townList = document.getElementById('town-list');
+  var areaMap = document.getElementById('area-map');
+  if (townList && areaMap) {
+    var defaultMapSrc = areaMap.src;
+    townList.addEventListener('click', function (e) {
+      var btn = e.target.closest('.town-btn');
+      if (!btn) { return; }
+      townList.querySelectorAll('.town-btn.is-active').forEach(function (el) {
+        el.classList.remove('is-active');
+        el.setAttribute('aria-pressed', 'false');
+      });
+      btn.classList.add('is-active');
+      btn.setAttribute('aria-pressed', 'true');
+      areaMap.src = 'https://maps.google.com/maps?q=' + encodeURIComponent(btn.dataset.town) + '&output=embed';
+      areaMap.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+    });
+    townList.addEventListener('keydown', function (e) {
+      // Restore the shop's own pin when a visitor clears the highlighted town.
+      if (e.key === 'Escape') {
+        townList.querySelectorAll('.town-btn.is-active').forEach(function (el) {
+          el.classList.remove('is-active');
+          el.setAttribute('aria-pressed', 'false');
+        });
+        areaMap.src = defaultMapSrc;
+      }
+    });
   }
 
   // Quote form: opens the visitor's email app with a pre-filled message to the business.
